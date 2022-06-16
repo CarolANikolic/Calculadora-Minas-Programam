@@ -30,9 +30,9 @@ function quantity() {
 // Requisito 2
 function firstLastPosition() {
   //Seu código aqui descomente para usar a estrutura declarada.
-    for (let i = 0; i < historicoDeResultado.lenght; i++) {
+    for (let i = 0; i < historicoDeResultado.length; i++) {
       requisito2 = [];
-      requisito2 = [historicoDeResultado[0], historicoDeResultado[(historicoDeResultado.lenght)-1]];//Seu código aqui, manipule a variável sem alterar o nome dela.
+      requisito2 = [historicoDeResultado[0], historicoDeResultado[(historicoDeResultado.length)-1]];//Seu código aqui, manipule a variável sem alterar o nome dela.
     } 
 
   req2.innerHTML = `Primeiro e ultimo item [ ${requisito2} ]`; //NÃO ALTERAR!
@@ -93,10 +93,10 @@ function conditionCase() {
 function intermediateNumbers() {
   let numeros = [];//NÃO ALTERAR!
 
-  //Seu código aquidescomente para usar a estrutura declarada.
-   for (let i = [0]; i < historicoDeResultado.lenght; i++ ) { //Seu código aqui
-    if (i >= 10 && i <= 20) {//Seu código aqui
-      numeros = historicoDeResultado.push(i);//Seu código aqui, manipule a variável sem alterar o nome dela.
+  //Seu código aqui descomente para usar a estrutura declarada.
+   for (let i = 0; i < historicoDeResultado.length; i++ ) { //Seu código aqui
+    if (historicoDeResultado[i] >= 10 && historicoDeResultado[i] <= 20) {//Seu código aqui
+      numeros.push(historicoDeResultado[i]);//Seu código aqui, manipule a variável sem alterar o nome dela.
     }
   } 
   return req7.innerHTML = `Numeros entre 10 e 20: ${numeros}`;//NÃO ALTERAR!
